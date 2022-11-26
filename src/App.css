@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-header {
   background-color: #D2BBA0;
   min-height: 100vh;
   display: flex;
@@ -13,4 +10,16 @@
   color: white;
 }
 
+#calculator-case {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(20, 20, 20);
+}
 
+#display {
+  height: 100px;
+  width: 370px;
+  background-color: rgb(192, 197, 202);
+  margin: auto;
+  margin-top: 10px;
+}

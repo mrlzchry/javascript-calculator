@@ -3,8 +3,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <div id='calculator-case'>
+        <div id='display'>
+
+        </div>
+      </div>
     </div>
   );
 }
