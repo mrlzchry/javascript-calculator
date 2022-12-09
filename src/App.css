@@ -11,15 +11,55 @@
 }
 
 #calculator-case {
-  height: 500px;
-  width: 400px;
+  height: 525px;
+  width: 350px;
   background-color: rgb(20, 20, 20);
 }
 
 #display {
   height: 100px;
-  width: 370px;
+  width: 328px;
   background-color: rgb(192, 197, 202);
   margin: auto;
   margin-top: 10px;
+  color: black;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: auto;
+  /* margin-left: -5px; */
+}
+
+.pads {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  margin: 1px;
+  color: black;
+  caret-color: transparent;
+}
+
+.pads:hover {
+  cursor: pointer;
+}
+
+#zero {
+  width: 161px;
+  
+}
+
+#clear {
+  width: 243px;
+  background-color: rgb(185, 126, 36);
+}
+
+#add, #subtract, #multiply, #divide, #equals{
+  color:rgb(192, 197, 202);
+  background-color: rgb(31, 30, 30);
 }
